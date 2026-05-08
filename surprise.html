@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Birthday Surprise ✨</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<body>
+
+<audio id="bgMusic" autoplay muted loop>
+
+<source src="assets/bg-music.mp3"
+type="audio/mp3">
+
+</audio>
+
+    <!-- CALENDAR -->
+
+<section class="calendar-section" id="nextSection">
+
+<h2 class="section-title">
+A Beautiful Day In June ✨
+</h2>
+
+<div class="calendar-wrapper">
+
+<div class="calendar">
+
+<div class="month">
+June 2026
+</div>
+
+<div class="weekdays">
+
+<div>Mon</div>
+<div>Tue</div>
+<div>Wed</div>
+<div>Thu</div>
+<div>Fri</div>
+<div>Sat</div>
+<div>Sun</div>
+
+</div>
+
+<div class="days">
+
+<div class="day">1</div>
+<div class="day">2</div>
+<div class="day">3</div>
+<div class="day">4</div>
+<div class="day">5</div>
+<div class="day">6</div>
+<div class="day">7</div>
+<div class="day">8</div>
+<div class="day">9</div>
+<div class="day">10</div>
+<div class="day">11</div>
+<div class="day">12</div>
+<div class="day">13</div>
+<div class="day">14</div>
+<div class="day">15</div>
+
+<div class="day special">
+16 ❤️
+</div>
+
+<div class="day">17</div>
+<div class="day">18</div>
+<div class="day">19</div>
+<div class="day">20</div>
+<div class="day">21</div>
+<div class="day">22</div>
+<div class="day">23</div>
+<div class="day">24</div>
+<div class="day">25</div>
+<div class="day">26</div>
+<div class="day">27</div>
+<div class="day">28</div>
+<div class="day">29</div>
+<div class="day">30</div>
+
+</div>
+
+</div>
+
+<div class="note-card">
+
+<h3>
+A Few Words For You ✨
+</h3>
+
+<br>
+
+<p>
+If this day hadn't existed, maybe my life wouldn't feel this special...
+</p>
+
+<br>
+
+<p>
+— Happy Birthday..
+to the one who makes life feel beautiful 🤍
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SPECIAL NOTE -->
+
+<section class="note-section">
+
+<h2 class="section-title">
+From My Heart To Yours💌
+</h2>
+
+<div class="note-box">
+
+Happy Birthday to my most favorite person ✨
+
+May every day of your life be beautiful, your heart always stay happy, and your smile never fade. You are not just a person to me; you are a feeling that brings peace, happiness, and warmth into my life. 💖
+
+People like you are truly rare. Your care, your words, your presence — everything about you is special in the most beautiful way. On your special day, I just want to wish that every dream you have slowly turns into reality and you always stay blessed and happy.
+
+No matter what life brings, never lose that beautiful smile of yours, because it has the power to make everything feel better. ✨
+
+No matter what happens, always stay by my side and keep enduring my tantrums. And please, try to talk to me for a little while every day, no matter how busy you are..
+
+May today be filled with love, laughter, unforgettable memories, and endless happiness. Once again, Happy Birthday from the bottom of my heart! 🎂💫
+
+</div>
+
+</section>
+
+<!-- MEMORIES -->
+
+<section class="memories">
+
+<h2 class="section-title">
+Collected Smiles ✨
+</h2>
+
+<div class="memory-grid">
+
+<div class="memory-card">
+<img src="assets/photo1.png">
+<div class="caption">
+The Kind Of Smile
+That Stays In Mind 
+</div>
+</div>
+
+<div class="memory-card">
+<img src="assets/photo2.png">
+<div class="caption">
+Eyes Full Of Stories
+</div>
+</div>
+
+<div class="memory-card">
+<img src="assets/photo3.png">
+<div class="caption">
+Beauty Wrapped In Simplicity
+</div>
+</div>
+
+<div class="memory-card">
+<img src="assets/photo4.png">
+<div class="caption">
+Pretty Moments, Prettier You
+</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- QUOTE -->
+
+<section class="quote">
+
+<div class="quote-text">
+“Every beautiful memory
+begins with a beautiful person.”
+</div>
+
+
+
+
+
+<!-- BOOK -->
+
+<section class="book">
+
+<div class="book-card">
+
+
+<h2>
+A Few Pages Meant Only For You…
+</h2>
+
+<p>
+Some words are better felt quietly.
+</p>
+
+<a href="flipbook.html"
+target="_blank"
+class="book-btn">
+
+Open Your Book Rhythm ✨
+
+</a>
+
+<br><br>
+
+<small>
+(Not in front of everyone 🤍)
+</small>
+
+</div>
+
+</section>
+
+<!-- FINALE -->
+
+<section class="finale">
+
+
+<h1>
+ONCE AGAIN Happy Birthday Rhythm ✨
+</h1>
+
+<p>
+May life always decorate your days with happiness,
+beautiful surprises, and endless smiles.
+</p>
+
+</section>
+
+<script src="script.js"></script>
+
+<script>
+
+window.addEventListener(
+"load",
+()=>{
+
+const bgMusic =
+document.getElementById("bgMusic");
+
+if(localStorage.getItem("playMusic")
+=== "true"){
+
+bgMusic.muted = false;
+
+bgMusic.play();
+
+}
+
+}
+);
+
+</script>
+
+</body>
+</html>
+

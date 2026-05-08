@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>Happy Birthday Rhythm ✨</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <script>
+
+function startBgMusic(){
+
+localStorage.setItem(
+"playMusic",
+"true"
+);
+
+}
+
+</script>
+
+<!-- PARTICLES -->
+
+<div class="particles">
+
+<span style="left:10%;animation-delay:0s;"></span>
+<span style="left:20%;animation-delay:2s;"></span>
+<span style="left:30%;animation-delay:4s;"></span>
+<span style="left:40%;animation-delay:1s;"></span>
+<span style="left:50%;animation-delay:6s;"></span>
+<span style="left:60%;animation-delay:3s;"></span>
+<span style="left:70%;animation-delay:5s;"></span>
+<span style="left:80%;animation-delay:7s;"></span>
+<span style="left:90%;animation-delay:2s;"></span>
+
+</div>
+
+<!-- LOADER -->
+
+<div class="loader" id="loader">
+
+<div class="loading-text" id="loadingText">
+Loading...
+</div>
+
+<div class="count hidden-count" id="count">
+3
+</div>
+
+</div>
+
+<!-- HAPPY SCREEN -->
+
+<div class="happy-screen" id="happyScreen">
+
+  <div class="celebration-rain">
+
+<span>✨</span>
+<span>🎉</span>
+<span>💖</span>
+<span>🌸</span>
+<span>💫</span>
+<span>🎀</span>
+<span>✨</span>
+<span>🎉</span>
+
+</div>
+
+<button class="skip-btn" onclick="skipIntro()">✕</button>
+
+<div class="happy-text">
+HAPPY BIRTHDAY RHYTHM ✨
+</div>
+
+</div>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="floating-stars">
+
+<span>✨</span>
+<span>💖</span>
+<span>🎀</span>
+<span>✨</span>
+<span>🌸</span>
+<span>💫</span>
+
+</div>
+
+<div class="hero-content">
+
+<h1>
+Today Is All About
+Your Smile & Happiness 💖✨
+</h1>
+
+<p>
+Every page holds
+a piece of my heart 💫
+</p>
+
+<a href="surprise.html"
+target="_blank"
+class="glass-btn"
+onclick="startBgMusic()">
+
+Open Birthday Surprise ✨
+
+</a>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
