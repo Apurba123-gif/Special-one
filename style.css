@@ -949,16 +949,30 @@ align-items:center;
 }
 
 
+/* SURPRISE BUTTON */
+
+.glass-btn{
+
+text-decoration:none;
+
+display:inline-block;
+
+}
+
+/* TAP TEXT */
+
 .tap-text{
 
-margin-top:15px;
+margin-top:12px;
 
 font-size:14px;
 
 color:#ffd6e6;
 
-opacity:.85;
+opacity:.9;
 
 text-align:center;
+
+display:block;
 
 }
