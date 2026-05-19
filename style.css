@@ -947,3 +947,18 @@ justify-content:center;
 align-items:center;
 
 }
+
+
+.tap-text{
+
+margin-top:15px;
+
+font-size:14px;
+
+color:#ffd6e6;
+
+opacity:.85;
+
+text-align:center;
+
+}
