@@ -1028,3 +1028,18 @@ text-align:center;
 opacity:.9;
 
 }
+
+
+
+
+@media(max-width:768px){
+
+.final-message{
+
+margin-top:-120px;
+
+padding-top:40px;
+
+}
+
+}
